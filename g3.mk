@@ -103,7 +103,7 @@ PRODUCT_PACKAGES += \
 
 # Doze mode
 PRODUCT_PACKAGES += \
-    OneplusDoze
+    DeviceSettings
 
 # IPv6 tethering
 PRODUCT_PACKAGES += \
