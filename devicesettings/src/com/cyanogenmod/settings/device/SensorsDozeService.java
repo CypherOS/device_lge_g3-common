@@ -357,9 +357,6 @@ public class SensorsDozeService extends Service {
             case AudioManager.RINGER_MODE_VIBRATE:
             case AudioManager.RINGER_MODE_NORMAL:
             default:
-                if (enabled) {
-                    vibrator.vibrate(VIBRATOR_ACKNOWLEDGE);
-                }
                 break;
         }
     }

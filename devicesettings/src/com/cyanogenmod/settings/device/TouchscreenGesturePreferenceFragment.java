@@ -54,7 +54,6 @@ public class TouchscreenGesturePreferenceFragment extends PreferenceFragment {
         mPocketPreference.setEnabled(dozeEnabled);
         mProximityWakePreference = (SwitchPreference) findPreference(KEY_PROXIMITY_WAKE);
         mProximityWakePreference.setOnPreferenceChangeListener(mGesturePrefListener);
-        mHapticFeedback.setOnPreferenceChangeListener(mHapticPrefListener);
     }
 
     @Override
